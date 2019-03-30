@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>人人网注册</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        div {
+            width: 600px;
+            height: 800px;
+            margin: 10px auto;
+            border: 1px solid black;
+        }
+
+        /*.one,.two,.img,a,.four{*/
+        /*margin: 50px 10px;*/
+        /*padding: 0 ;*/
+
+        /*}*/
+        .one {
+            font-weight: bolder;
+            margin: 50px 10px;
+            padding: 0;
+
+        }
+
+        .two {
+            text-align: right;
+            margin: 50px 10px;
+            padding: 0;
+
+        }
+
+        .img {
+            width: 50px;
+            height: 50px;
+            margin: 50px 10px;
+            padding: 0;
+
+        }
+
+        .three {
+            margin: 50px 10px;
+            padding: 0;
+
+        }
+
+        a {
+            margin: 50px 10px;
+            padding: 0;
+
+        }
+    </style>
+</head>
+<body>
+<div>
+    <table>
+        <tr>
+            <td colspan="2" class="one">免费开通人人网账户号</td>
+
+        </tr>
+        <tr>
+            <td class="two">注册邮箱:</td>
+            <td class="four"><input type="text" maxlength="50"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>你还可以使用<a href="">账号</a>注册或者<a href="">手机号</a>注册</td>
+        </tr>
+        <tr>
+            <td class="two">创建密码:</td>
+            <td class="four"><input type="password" maxlength="16"></td>
+        </tr>
+        <tr>
+            <td class="two">真实姓名:</td>
+            <td class="four"><input type="text" maxlength="8"></td>
+        </tr>
+        <tr>
+            <td class="two">性别:</td>
+            <td class="four"><input type="radio" name="sex">男 <input type="radio" name="sex">女</td>
+        </tr>
+        <tr>
+            <td class="two">生日:</td>
+            <td class="four">
+                <select>
+                    <option value="1">1991</option>
+                    <option value="2">1992</option>
+                    <option value="3">1993</option>
+                </select>年
+                <select>
+                    <option value="1">10</option>
+                    <option value="2">11</option>
+                    <option value="3">12</option>
+                </select>月
+                <select>
+                    <option value="1">27</option>
+                    <option value="2">28</option>
+                    <option value="3">29</option>
+                </select>日
+            </td>
+        </tr>
+        <tr>
+            <td class="two">我现在</td>
+            <td class="four">
+                <select>
+                    <option value="1">正在上学</option>
+                    <option value="1">正在工作</option>
+                    <option value="1">暂无工作</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td class="four"></td>
+            <td class="four"><img src="img/0验证码.png" alt="" class="img"> <a href="">看不清换一张？</a></td>
+        </tr>
+        <tr>
+            <td class="two">验证码</td>
+            <td class="four"><input type="text"></td>
+        </tr>
+        <tr>
+            <td class="four"></td>
+            <td class="four"><input type="button" value="立即注册找好友" class="three"></td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>
